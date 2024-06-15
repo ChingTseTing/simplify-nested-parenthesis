@@ -39,5 +39,7 @@ def parenthetic_contents(string):
 if __name__ == '__main__':
 
     str= input("pls input string: ") # "(((A or B) or ((A AND D) NOT (A AND D))) NOT C)"  #list(parenthetic_contents(str))
+    print("Output:/n")
     print( simplify(str))
+    print("")
     os.system("pause")
